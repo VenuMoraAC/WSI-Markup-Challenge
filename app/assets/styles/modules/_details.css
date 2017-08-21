@@ -1,0 +1,21 @@
+.details {
+    margin-top: 40px;
+    @mixin atMedium {
+        margin-top: 0px;        
+    }
+    &__title {
+        font-weight: 400;
+    }
+    &__description {
+        color: $grey;
+        margin-top: 18px;
+    }
+
+    &__features {
+        margin-top: 18px;
+        padding-left: 40px;
+        &__item {
+            list-style: disc;
+        }
+    }
+}

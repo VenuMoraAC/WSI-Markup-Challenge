@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    padding: 20px 0px;
+    font-size: 13px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+div {
+    position: relative;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    height: 100%;
+    width: 100%;
+}
