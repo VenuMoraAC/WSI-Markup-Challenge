@@ -460,6 +460,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
+    max-height: 100%
 }
 
 * {
@@ -487,6 +488,7 @@ div {
 
 a {
     text-decoration: none;
+    height: 100%;
 }
 
 input {
@@ -598,6 +600,7 @@ input {
         -webkit-box-flex: 2;
             -ms-flex-positive: 2;
                 flex-grow: 2;
+        cursor: pointer;
     }
 
 .navbar__header:hover {
@@ -697,18 +700,10 @@ input {
         }
 
 .preview__small__items__item {
-                width: 50px;
-                height: 50px;
+                width: 100px;
+                height: 100px;
                 float: left;
             }
-
-@media (min-width: 768px) {
-
-.preview__small__items__item {
-                    width: 100px;
-                    height: 100px
-            }
-  }
 
 .preview__small__items__item .active-picture {
                     border: 2px solid #333;
